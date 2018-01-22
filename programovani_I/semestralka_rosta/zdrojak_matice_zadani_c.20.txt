@@ -1,0 +1,123 @@
+
+
+
+#include <stdio.h>
+#include <math.h>
+#include <stdlib.h>
+#include <conio.h> 
+#define PI 3.14159265
+//#define _CRT_SECURE_NO_WARNINGS
+#include <string.h>
+
+#define NAZEV "matice.vys.txt"
+
+ float Secti_na (int n, float (*matice)[15][15]) 			// datovy typ navratove hodnoty, formalni parametry      
+ {
+       float s_na=0;
+       
+       for (int i=0; i<n; i++)                           		// cyklus pro na
+        {
+           s_na += (*matice)[i][i];
+		}       
+       return (s_na);   
+ 
+  }
+  
+
+   
+ float Secti_nad (int n, float (*matice)[15][15])			// datovy typ navratove hodnoty, formalni parametry 
+  
+       float s_nad=0;
+       
+       for (int i=0; i<n-1; i++)              				// cyklus pro nad                  
+        {
+          for (int j=i+1; j<n; j++) 
+           {
+             s_nad += (*matice)[i][j];
+           }
+        }
+		return (s_nad); 
+  }
+    
+  
+      
+  float Secti_pod (int n, float (*matice)[15][15])			// datovy typ navratove hodnoty, formalni parametry    
+  {
+       float s_pod=0;
+       
+       for (int i=1; i<n; i++)                           		// cyklus pro pod
+        {
+          for (int j=0; j<i; j++) 
+           {
+              s_pod += (*matice)[i][j];
+           }
+        }  
+       return (s_pod);   
+   }
+   
+   
+
+int main ()
+{
+  int n, i, j, k = 1;
+  float (*matice)[15][15], soucet_na = 0, soucet_nad = 0, soucet_pod = 0;
+    
+  matice = (float (*)[15][15])malloc(sizeof(float [15][15]));		
+  
+  printf (" zadej velikost ctvercove matice: ");
+  
+  scanf ("%i", &n);
+  
+  
+    
+    for (int i=0; i<n; i++) 
+    {
+      for (int j=0; j<n; j++) 
+        {
+         (*matice)[i][j]= ( pow(-1,i+j) * sin(PI/4*i*j));		//plneni matice dle zadani
+         //(*matice)[i][j] = k++;					//plneni matice vzestupne od 1
+        }
+    }        
+
+    
+    printf("\n Naplnena matice:\n-----------------------\n\n");
+       for(i=0;i<n;i++) 
+	     {
+           for(j=0;j<n;j++) 
+		    {
+              printf("%4.2f   ",(*matice)[i][j]);				
+            }
+            printf("\n");
+	      }
+	      
+    
+    soucet_na  = Secti_na  (n, matice);							
+   
+    soucet_nad = Secti_nad (n, matice);							
+   
+    soucet_pod = Secti_pod (n, matice);							
+    
+    
+    FILE *soubor;
+
+    soubor = fopen(NAZEV, "a+"); 
+    
+    	fprintf(soubor,"\n\nVYSLEDKY UZIVATELSKE FUNKCE MAT_SUM: \n");
+	fprintf(soubor,"\nSoucet na diagonale: %4.2f", soucet_na);
+	fprintf(soubor,"\nSoucet nad diagonalou: %4.2f", soucet_nad);
+	fprintf(soubor,"\nSoucet pod diagonalou: %4.2f", soucet_pod);
+    fclose(soubor);
+    
+    
+    printf("\nSoucet na diagonale: %4.2f", soucet_na);
+    printf("\nSoucet nad diagonalou: %4.2f", soucet_nad);
+    printf("\nSoucet pod diagonalou: %4.2f", soucet_pod);
+    printf("\n");
+    
+    free(matice);	
+													
+    system("PAUSE");
+    
+    return (0);
+ 
+}
