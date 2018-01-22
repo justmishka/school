@@ -1,0 +1,2 @@
+funkce na všechny tři druhy průměru, přičemž u harmonickýho a geometrickýho nesmí být nula v zadaných číslech.
+
