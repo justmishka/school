@@ -1,0 +1,7 @@
+VYSLEDKY:
+Euklidovská norma matice A: 10.000000
+Euklidovská norma matice B: 9.219544
+Euklidovská norma pro soucet matic AB: 15.556349
+
+ZAVER:
+Euklidovska norma souctu obou matic je mensi nebo rovna souctu jendotlivych euklidovych norem!
