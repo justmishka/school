@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=PrikazAportuj
+comment0.text=\r\n\ Instance\ t\u0159\u00EDdy\ PrikazAportuj\ p\u0159edstavuj\u00ED\ ...\r\n\r\n\ @author\ \ \ \ Michaela\ Duranova\r\n\ @version\ \ \ brezen\ 2018\r\n
+comment1.params=tlama
+comment1.target=PrikazAportuj(Tlama)
+comment1.text=\r\n\ \ Konstruktor\ t\u0159\u00EDdy\r\n\ \ \r\n\ \r\n
+comment2.params=parametry
+comment2.target=java.lang.String\ provedPrikaz(java.lang.String[])
+comment2.text=\r\n\ \ Prov\u00E1d\u00ED\ p\u0159\u00EDkaz\ "aportuj".\ Zkou\u0161\u00ED\ aportovat\ a\ t\u00EDm\ zv\u00FD\u0161it\ z\u00E1bavu\ pro\ pejska.\r\n\ \ Na\ prov\u00E1d\u011Bn\u00ED\ aportu\ mus\u00ED\ m\u00EDt\ pejsek\ v\ tlam\u011B\ n\u011Bkterou\ z\ t\u011Bchto\ v\u011Bc\u00ED\:\ hracka,\ klacek,\ balonek,\ tenisak\r\n\ \ V\ jin\u00E9m\ p\u0159\u00EDpad\u011B\ se\ vr\u00E1t\u00ED\ chybov\u00E1\ hl\u00E1\u0161ka,\ \u017Ee\ nen\u00ED\ s\ \u010D\u00EDm\ si\ aportovat\r\n\r\n\ \ \ \ \ \r\n@return\ zpr\u00E1va,\ kterou\ vyp\u00ED\u0161e\ hra\ hr\u00E1\u010Di\r\n
+comment3.params=
+comment3.target=java.lang.String\ getNazev()
+numComments=4

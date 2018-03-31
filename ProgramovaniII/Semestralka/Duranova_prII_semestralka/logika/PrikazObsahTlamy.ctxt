@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=PrikazObsahTlamy
+comment0.text=\r\n\ Instance\ t\u0159\u00EDdy\ PrikazObsahTlamy\r\n\r\n\ @author\ \ \ \ Michaela\ Duranova\r\n\ @version\ \ \ brezen\ 2018\r\n
+comment1.params=tlama
+comment1.target=PrikazObsahTlamy(Tlama)
+comment1.text=\r\n\ \ Konstruktor\ ....\r\n
+comment2.params=parametry
+comment2.target=java.lang.String\ provedPrikaz(java.lang.String[])
+comment3.params=
+comment3.target=java.lang.String\ getNazev()
+numComments=4

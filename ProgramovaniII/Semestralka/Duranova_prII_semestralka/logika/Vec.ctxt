@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Vec
+comment0.text=\r\n\ Instance\ t\u0159\u00EDdy\ Vec\ p\u0159edstavuj\u00ED\ ...\r\n\r\n\ @author\ \ \ \ Michaela\ Duranova\r\n\ @version\ \ \ brezen\ 2018\r\n
+comment1.params=
+comment1.target=Vec()
+comment1.text=\r\n\ \ Konstruktor\ ....\r\n
+comment2.params=jmeno\ prenositelna
+comment2.target=Vec(java.lang.String,\ boolean)
+comment3.params=
+comment3.target=java.lang.String\ getJmeno()
+comment4.params=
+comment4.target=boolean\ jePrenositelna()
+numComments=5

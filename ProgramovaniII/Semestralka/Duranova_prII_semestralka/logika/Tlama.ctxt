@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Tlama
+comment0.text=\r\n\ Instance\ t\u0159\u00EDdy\ Tlama\ p\u0159edstavuj\u00ED\ ...\r\n\r\n\ @author\ \ \ \ Michaela\ Duranova\r\n\ @version\ \ \ brezen\ 2018\r\n
+comment1.params=kapacita
+comment1.target=Tlama(int)
+comment1.text=\r\n\ \ Konstruktor\ ....\r\n
+comment2.params=
+comment2.target=int\ getKapacita()
+comment3.params=vec
+comment3.target=boolean\ vlozVec(Vec)
+comment3.text=\r\n\ \ \ \ public\ void\ setKapacita(int\ kapacita)\ {\r\n\ \ \ \ \ \ \ \ this.kapacita\ \=\ kapacita;\r\n\r\n\ \ \ \ }\r\n
+comment4.params=
+comment4.target=java.lang.String\ nazvyVeci()
+comment5.params=vec
+comment5.target=boolean\ obsahujeVec(java.lang.String)
+comment6.params=jmeno
+comment6.target=Vec\ vyberVec(java.lang.String)
+comment6.text=\r\n\ Vrac\u00ED\ v\u011Bc,\ kter\u00E1\ m\u00E1\ jm\u00E9no\ p\u0159edan\u00E9\ jako\ parametr\ \r\n\r\n\ @param\ \ jm\u00E9no\ v\u011Bci\r\n\ @return\ v\u011Bc\r\n
+numComments=7

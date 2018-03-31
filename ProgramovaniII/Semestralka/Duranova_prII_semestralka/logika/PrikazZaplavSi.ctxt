@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=PrikazZaplavSi
+comment0.text=\r\n\ Instance\ t\u0159\u00EDdy\ PrikazZaplavSi\ p\u0159edstavuj\u00ED\ ...\r\n\r\n\ @author\ \ \ \ Michaela\ Duranova\r\n\ @version\ \ \ brezen\ 2018\r\n
+comment1.params=plan
+comment1.target=PrikazZaplavSi(HerniPlan)
+comment1.text=\r\n\ \ Konstruktor\ t\u0159\u00EDdy\r\n\ \ \r\n\ \r\n
+comment2.params=parametry
+comment2.target=java.lang.String\ provedPrikaz(java.lang.String[])
+comment2.text=\r\n\ \ Prov\u00E1d\u00ED\ p\u0159\u00EDkaz\ "zaplavSi".\ Zkou\u0161\u00ED\ se\ si\ zaplavat\ v\ zadan\u00E9m\ prostoru.\ Pokud\ prostor\r\n\ \ je\ jin\u00FD\ ne\u017E\ rybn\u00EDk\ u\u017Eivateli\ se\ objev\u00ED\ chybov\u00E1\ hl\u00E1\u0161ka,\ \u017Ee\ zde\ se\ ned\u00E1\ koupat.\ Pokud\ aktu\u00E1ln\u00ED\ prostor\r\n\ \ je\ prostor\ rybn\u00EDk\ pejsek\ si\ zaplave.\r\n\r\n\ \ \ \ \ \r\n@return\ zpr\u00E1va,\ kterou\ vyp\u00ED\u0161e\ hra\ hr\u00E1\u010Di\r\n
+comment3.params=
+comment3.target=java.lang.String\ getNazev()
+numComments=4

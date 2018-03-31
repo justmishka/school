@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=PrikazPust
+comment0.text=\r\n\ Instance\ t\u0159\u00EDdy\ PrikazPust\ p\u0159edstavuj\u00ED\ ...\r\n\r\n\ @author\ \ \ \ Michaela\ Duranova\r\n\ @version\ \ \ brezen\ 2018\r\n
+comment1.params=tlama
+comment1.target=PrikazPust(Tlama)
+comment2.params=parametry
+comment2.target=java.lang.String\ provedPrikaz(java.lang.String[])
+comment3.params=
+comment3.target=java.lang.String\ getNazev()
+numComments=4
